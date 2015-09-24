@@ -1,0 +1,223 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ul,ol {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+button {cursor:pointer;}
+/*global*/
+body { font:normal 14px/20px 'Microsoft yahei';background-color:#FFE15B;min-width:1000px;}
+a { text-decoration:none;color:#282828; cursor:pointer;}
+a:active{outline:none;}
+input, select, form img, button,label,textarea{ font-size:12px; vertical-align:middle; font-family:Microsoft yahei; color:#000000;}
+
+.topic_pay {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #1176D0;
+    font-family: Tahoma;
+    font-size: 12px;
+    position: fixed;
+    width: 422px;
+    z-index: 999;
+}
+
+.pay_top {
+    color: #979797;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    position: relative;
+}
+.pay_top a, .pay_content .select .on b, .ico_exclamation, .pay_top02 a {
+    background: rgba(0, 0, 0, 0) url("../img_bg/sp_topic_pay.png") no-repeat scroll 0 0;
+    text-indent: -9999px;
+}
+.pay_btn a {
+    transition: all 0.2s linear 0s;
+}
+.topic_pay {
+    background: #fff none repeat scroll 0 0;
+    border: 5px solid #1176D0;
+    font-family: Tahoma;
+    font-size: 12px;
+    position: fixed;
+    width: 422px;
+    z-index: 999;
+}
+.pay_top {
+    color: #979797;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    position: relative;
+}
+.pay_top a {
+    display: block;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 29px;
+}
+.pay_content {
+    color: #353434;
+    padding: 0 20px;
+    position: relative;
+}
+.pay_content p {
+    padding-bottom: 10px;
+}
+.pay_content p strong {
+    font-size: 14px;
+}
+.pay_content dl {
+    min-height: 60px;
+}
+.pay_content dt {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.pay_content dt b {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #1176D0;
+    border-image: none;
+    border-style: dashed dashed dashed solid;
+    border-width: 6px;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    vertical-align: 5px;
+    width: 0;
+}
+.pay_content dd {
+    color: #979797;
+    float: left;
+    padding: 0 10px;
+}
+.pay_content .js_numFlower dd{float:none;}
+.pay_content label {
+    color: #979797;
+}
+.pay_content .on, .pay_content dd strong, .pay_content .on label {
+    color: #b72309;
+    font-weight: bold;
+	display:inline-block;
+}
+.pay_content dd input {
+    vertical-align: middle;float:none;
+}
+.pay_content dd label {
+    padding-left: 10px;display:inline-block;width:auto;
+}
+.pay_content .select {
+    position: relative;
+}
+.pay_content .select li{width:auto;height:20px;background-color:#fff;border-radius:0;color:#000;float:none;font:normal 12px 'microsoft yahei';margin:0;text-align:left;}
+.pay_content .select li:hover{background-color:none;}
+.pay_content .select .on {
+    border: 1px solid #a7cbff;
+    color: #343535;
+    display: inline-block;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    position: relative;
+    text-decoration: none;
+    width: 130px;
+}
+.pay_content .select .on b {
+    background-position: -34px -15px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 9px;
+}
+.pay_content ul {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #a7cbff;
+    height: 80px;
+    left: 10px;
+    overflow: auto;
+    position: absolute;
+    top: 21px;
+    width: 135px;
+}
+.pay_content li a {
+    color: #343535;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+.pay_content li a:hover {
+    background: #c1dbff none repeat scroll 0 0;
+}
+.pay_btn {
+    padding: 0 0 30px;
+    text-align: center;
+}
+.pay_btn a {
+    background: #1176D0 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 5px;
+    min-width: 70px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.pay_btn a:hover{
+    background: #FFD102 none repeat scroll 0 0;
+    color: #fff;
+}
+.topic_pay02 .pay_top {
+    background: #efefef none repeat scroll 0 0;
+    color: #353434;
+    font-size: 14px;
+    font-weight: bold;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    position: relative;
+}
+.topic_pay02 .pay_top a {
+    background-position: -34px 0;
+    display: block;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 12px;
+    width: 11px;
+}
+.topic_pay02 .pay_top a:hover, .topic_pay02 .pay_top a:focus {
+    background-position: -50px 0;
+}
+.topic_pay02 .pay_content {
+    padding: 20px;
+}
+.ico_exclamation {
+    background-position: 0 -33px;
+    height: 57px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    width: 63px;
+}
+
+.pop{position:fixed;z-index:1000;left:50%;top:50%;margin-left:-231px;margin-top:-160px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+(document.documentElement.clientHeight-this.offsetHeight)/2)+150);}
